@@ -1,0 +1,93 @@
+@media (min-width: 2000px) {
+    body {
+        max-width: 100%;
+        background-size: cover;
+    }
+
+    .cabecalho {
+        height: auto;
+        font-size: 40px;
+        
+    }
+
+    .principal {
+        width: 70%;
+    }
+
+    .principal .component {
+        width: 70%;
+        margin: 100px;
+        padding: 60px 80px;
+    }
+
+    .principal .component .title {
+        font-size: 70px;
+    }
+
+    .principal .component .lista .item {
+        font-size: 36px;
+        height: 120px;
+    }
+
+    
+
+    .principal .component .botao {
+        width: 400px;
+        height: 120px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 770px) {
+    .cabecalho {
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-right: 0;
+        font-size: 24px;
+    }
+
+    .principal {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .principal .component {
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .principal .component .title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 430px) {
+    .cabecalho {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .principal .component .lista .item {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .principal .component .lista .item .imagem {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 380px) {
+    .principal {
+        width: 100%;
+        margin: 0;
+    }
+
+    .principal .component {
+        margin: 5px;
+    }
+}

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Pokemon Hollow';
+    src: url('./assets/Pokemon Hollow.ttf');
+}
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('./assets/Pokemon Solid.ttf');
+}
+
+#light-theme {
+    background-color: #ffffff;
+    color: #a90a0a;
+}
+  
+#dark-theme {
+    background-color: #000000;
+    color: #6d0303;
+}
+
+
+.message {
+    font-family: 'Pokemon Hollow';
+    font-size: 35px;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.info {
+    margin: 30px 15px;
+    width: 75%;
+    padding: 45px 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info .image {
+    border: solid #a90a0a;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.info .type-name {
+    font-size: 35px;
+    font-family: 'Pokemon Hollow';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.info .type-name .name {
+    margin-bottom: 15px;
+}
+
+.abilities {
+    background-color: #a90a0a;
+    border: solid #a90a0a;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    font-size: 27px;
+    font-family: 'Pokemon Hollow';
+    color: #ffffff;
+}
+
+.abilities .titulo {
+    border-bottom: solid #ffffff 2px;
+    width: 100%;
+    text-align: center;
+}
+
+.abilities .abilities-list {
+    width: 100%;
+}
+
+.abilities .abilities-list .ability-item .item-title {
+    padding: 0 15px;
+    border-bottom: solid #ffffff 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.abilities .abilities-list .ability-item .item-text {
+    padding: 0 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.8s ease-out;
+}
+
+.moves {
+    border: solid #a90a0a 1px;
+    margin: 40px;
+    width: 75%;
+    font-family: 'Pokemon Hollow';
+    font-size: 27px;
+}
+
+.moves .moves-title {
+    background-color: #a90a0a;
+    border: solid #a90a0a;
+    text-align: center;
+    color: #ffffff;
+}
+
+.moves .moves-list .move-item {
+    border: solid #a90a0a 1px;
+    padding: 0 10px;
+    font-weight: bold;
+}

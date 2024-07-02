@@ -1,0 +1,51 @@
+
+.form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.form .search {
+    width: 300px;
+    height: 45%;
+    background-color: #fff;
+    padding: 5px;
+    border-style: none;
+    color: #a90a0a;
+    font-weight: bold;
+}
+
+.form .submit {
+    padding: 3px;
+    width: 100px;
+    background-color: #fff;
+    border-style: none;
+    color: #a90a0a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (min-width: 2000px) {
+    .form {
+        flex-direction: row;
+        align-items: center;
+        width: 25%;
+        padding: 20px;
+    }
+
+    .form .search {
+        width: 600px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .form .submit {
+        padding: 10px;
+        width: 150px;
+        font-size: 24px;
+    }
+}
+

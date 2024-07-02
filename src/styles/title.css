@@ -1,0 +1,25 @@
+@media (min-width: 2000px) {
+    .cabecalho .header-title {
+        font-size: 80px;
+        padding-left: 250px;
+        margin: 0;
+        width: 50%;
+    }
+}
+
+@media (max-width: 770px) {
+    .cabecalho .header-title {
+        margin-top: 20px;
+        width: 50%;
+        text-align: center;
+        padding-right: 20px;
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 380px) {
+    .cabecalho .header-title {
+        width: 100%;
+        padding-right: 40px;
+    }
+}

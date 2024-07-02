@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Pokemon Hollow';
+    src: url('../assets/Pokemon Hollow.ttf') format('truetype');
+}
+
+
+.toggler {
+    height: 100%;
+    width: 250px;
+    margin-bottom: 25px;
+    border-style: none;
+    background-color: #a90a0a;
+    color: #ffffff;
+    font-family: 'Pokemon Hollow';
+    font-weight: 600;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+@media (min-width: 2000px) {
+    .toggler {
+        font-size: 70px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 770px) {
+    .toggler {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .toggler {
+        padding-right: 40px;
+    }
+}
+
